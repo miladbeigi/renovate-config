@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Centralized Renovate config shared by miladbeigi and miladorg repositories. Extend it with: [\"github>miladbeigi/renovate-config\"]",
+  "extends": ["config:recommended"],
+  "dependencyDashboard": true,
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 10,
+  "schedule": ["before 6am on monday"]
+}
