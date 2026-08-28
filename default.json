@@ -5,5 +5,12 @@
   "dependencyDashboard": true,
   "labels": ["dependencies"],
   "prConcurrentLimit": 10,
-  "schedule": ["before 6am on monday"]
+  "schedule": ["before 6am on monday"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "pr"
+    }
+  ]
 }

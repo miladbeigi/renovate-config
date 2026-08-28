@@ -22,6 +22,7 @@ In any repository, add a `renovate.json` with:
 - `dependencies` label on PRs
 - Weekly schedule (Mondays before 6am)
 - Max 10 concurrent PRs per repository
+- Auto-merge minor and patch dependency updates (PRs are created and merged once CI passes)
 
 ## Files
 
