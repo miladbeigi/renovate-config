@@ -20,7 +20,7 @@ In any repository, add a `renovate.json` with:
 - Dependency Dashboard issue in every repository (`dependencyDashboard: true`)
 - Recommended preset defaults (`config:recommended`)
 - `dependencies` label on PRs
-- Weekly schedule (Mondays before 6am)
+- Daily schedule (before 6am)
 - Max 10 concurrent PRs per repository
 - Auto-merge minor and patch dependency updates (PRs are created and merged once CI passes)
 
